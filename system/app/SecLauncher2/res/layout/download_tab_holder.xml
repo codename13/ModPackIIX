@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="right" android:id="@id/download_layout" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:onClick="onClickDownloadedButton"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/menu_title_bar_divider" />
+    <include android:layout_gravity="right" android:id="@id/downloaded_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/downloaded_icon" />
+</LinearLayout>

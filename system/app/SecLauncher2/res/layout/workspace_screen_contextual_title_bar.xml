@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/work_title_area" android:layout_width="fill_parent" android:layout_height="107.0dip">
+        <TextView android:textSize="15.0dip" android:textColor="#99a09c6d" android:gravity="left" android:id="@id/cp_common_title" android:layout_width="wrap_content" android:layout_height="26.0dip" android:layout_marginLeft="21.0dip" android:layout_marginTop="10.0dip" android:text="@string/contextualpage_common_title" android:shadowColor="#66000000" android:shadowDy="1.0" android:shadowRadius="1.0" />
+        <TextView android:textSize="30.0dip" android:textStyle="bold" android:id="@id/work_title_bar" android:layout_width="wrap_content" android:layout_height="37.0dip" android:layout_marginLeft="21.0dip" android:layout_marginTop="13.0dip" android:shadowColor="#40000000" android:shadowDy="2.0" android:shadowRadius="1.0" android:layout_below="@id/cp_common_title" />
+    </RelativeLayout>
+</LinearLayout>

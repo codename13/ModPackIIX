@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.launcher2.AnimationLayer android:id="@id/animation_layer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.android.launcher2.DarkenView android:id="@id/darken_layer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layerType="none" />
+        <fragment android:name="com.android.launcher2.MenuFragment" android:id="@id/menu_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <fragment android:name="com.android.launcher2.HomeFragment" android:id="@id/home_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.android.launcher2.AnimationLayer>
+</merge>

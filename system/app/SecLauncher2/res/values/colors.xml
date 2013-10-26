@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="delete_target_hover_tint">#daff0000</color>
+    <color name="info_target_hover_tint">#da0099cc</color>
+    <color name="drag_view_multiply_color">#ccffffff</color>
+    <color name="bubble_dark_background">#20000000</color>
+    <color name="appwidget_error_color">#ffcccccc</color>
+    <color name="workspace_all_apps_and_delete_zone_text_color">#ccffffff</color>
+    <color name="workspace_all_apps_and_delete_zone_text_shadow_color">#a0000000</color>
+    <color name="edit_cancel_menu_text">#ffc8c8c8</color>
+    <color name="menu_title_bar_text_color">#ffdeecf5</color>
+    <color name="menu_title_bar_unselectedTextColor">#cce0f0ff</color>
+    <item type="color" name="menu_title_selected_text">@color/menu_title_bar_text_color</item>
+    <color name="menu_tab_container_bg">#3f000000</color>
+    <color name="contextualpage_spen_title_color">#ffe6dc8d</color>
+    <color name="contextualpage_earphone_title_color">#ff8cc9ff</color>
+    <color name="contextualpage_car_title_color">#ffb8de69</color>
+    <color name="contextualpage_desk_title_color">#ffd0a881</color>
+</resources>

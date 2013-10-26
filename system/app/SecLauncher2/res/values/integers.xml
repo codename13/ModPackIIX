@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="config_appsCustomizeSpringLoadedBgAlpha">45</integer>
+    <integer name="config_dragAppsCustomizeIconFadeInDuration">150</integer>
+    <integer name="config_dragAppsCustomizeIconFadeOutDuration">200</integer>
+    <integer name="config_dragAppsCustomizeIconFadeAlpha">100</integer>
+    <integer name="config_workspaceUnshrinkTime">300</integer>
+    <integer name="config_workspaceEditModeShrinkPercentage">80</integer>
+    <integer name="config_screenOnDropScalePercent">120</integer>
+    <integer name="config_screenOnDropScaleUpDuration">200</integer>
+    <integer name="config_screenOnDropScaleDownDuration">200</integer>
+    <integer name="config_screenOnDropAlphaFadeDelay">350</integer>
+    <integer name="config_screenOnDropAlphaFadeDuration">50</integer>
+    <integer name="config_appsCustomizeZoomInTime">350</integer>
+    <integer name="config_appsCustomizeZoomOutTime">600</integer>
+    <integer name="config_appsCustomizeZoomScaleFactor">7</integer>
+    <integer name="config_appsCustomizeFadeInTime">250</integer>
+    <integer name="config_appsCustomizeFadeOutTime">200</integer>
+    <integer name="config_appsCustomizeWorkspaceShrinkTime">300</integer>
+    <integer name="config_appsCustomizeWorkspaceAnimationStagger">40</integer>
+    <integer name="config_workspaceAppsCustomizeAnimationStagger">100</integer>
+    <integer name="config_tabTransitionDuration">250</integer>
+    <integer name="config_appsCustomizeDragSlopeThreshold">150</integer>
+    <integer name="config_workspaceDefaultScreenCount">3</integer>
+    <integer name="config_workspaceDefaultScreenCount_simple">2</integer>
+    <integer name="config_workspaceMaxScreenCount">9</integer>
+    <integer name="config_workspaceDefaultHomeScreenIndex">3</integer>
+    <integer name="config_workspaceDefaultHomeScreenIndex_simple">2</integer>
+    <integer name="config_dropTargetBgTransitionDuration">100</integer>
+    <integer name="config_crosshairsFadeInTime">600</integer>
+    <integer name="config_dragViewExtraPixels">40</integer>
+    <integer name="config_dragOutlineFadeTime">900</integer>
+    <integer name="config_dragOutlineMaxAlpha">191</integer>
+    <integer name="config_dropAnimMaxDuration">500</integer>
+    <integer name="config_folderAnimDuration">120</integer>
+    <integer name="config_dropAnimMaxDist">800</integer>
+    <integer name="config_workspaceScreenBitmapCacheScale">20</integer>
+    <integer name="config_maxScaleForUsingWorkspaceScreenBitmapCache">50</integer>
+    <integer name="config_workspaceShrinkPercent">17</integer>
+    <integer name="config_moveIntoFolderDuration">500</integer>
+    <integer name="config_fadeIntoFolderDuration">300</integer>
+    <integer name="config_workspaceCellCountX">4</integer>
+    <integer name="config_workspaceCellCountY">4</integer>
+    <integer name="config_scrollZoneScrollDelay">500</integer>
+    <item type="integer" name="APKTOOL_DUMMY_003c">false</item>
+    <item type="integer" name="APKTOOL_DUMMY_003e">false</item>
+    <item type="integer" name="APKTOOL_DUMMY_003f">false</item>
+    <item type="integer" name="APKTOOL_DUMMY_0040">false</item>
+    <item type="integer" name="APKTOOL_DUMMY_0041">false</item>
+    <item type="integer" name="APKTOOL_DUMMY_0042">false</item>
+</resources>

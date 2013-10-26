@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites
+  xmlns:launcher="http://schemas.android.com/apk/res/com.sec.android.app.launcher">
+    <hotseat>
+        <favorite launcher:className="com.android.browser.BrowserActivity" launcher:packageName="com.android.browser" launcher:screen="1" launcher:x="0" />
+        <favorite launcher:className="com.sec.android.gallery3d.app.MediaFlow" launcher:packageName="com.sec.android.gallery3d" launcher:screen="1" launcher:x="1" />
+        <favorite launcher:className="com.android.email.activity.Welcome" launcher:packageName="com.android.email" launcher:screen="1" launcher:x="2" />
+        <favorite launcher:className="com.sec.chaton.HomeActivity" launcher:packageName="com.sec.chaton" launcher:screen="1" launcher:x="3" />
+        <favorite launcher:className="com.android.contacts.activities.DialtactsActivity" launcher:packageName="com.android.contacts" launcher:screen="2" launcher:x="0" />
+        <favorite launcher:className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity" launcher:packageName="com.google.android.youtube" launcher:screen="2" launcher:x="1" />
+        <favorite launcher:className="com.sec.android.app.videoplayer.activity.MainTab" launcher:packageName="com.sec.android.app.videoplayer" launcher:screen="2" launcher:x="2" />
+        <favorite launcher:className="com.android.calendar.AllInOneActivity" launcher:packageName="com.android.calendar" launcher:screen="2" launcher:x="3" />
+        <favorite launcher:className="com.vlingo.midas.gui.ConversationActivity" launcher:packageName="com.vlingo.midas" launcher:screen="3" launcher:x="0" />
+        <favorite launcher:className="com.google.android.maps.driveabout.app.DestinationActivity" launcher:packageName="com.google.android.apps.maps" launcher:screen="3" launcher:x="1" />
+        <favorite launcher:className="com.google.android.maps.MapsActivity" launcher:packageName="com.google.android.apps.maps" launcher:screen="3" launcher:x="2" />
+        <favorite launcher:className="com.samsung.music.Main" launcher:packageName="com.samsung.music" launcher:screen="3" launcher:x="3" />
+        <favorite launcher:className="com.android.email.activity.Welcome" launcher:packageName="com.android.email" launcher:screen="4" launcher:x="0" />
+        <favorite launcher:className="com.sec.android.app.videoplayer.activity.MainTab" launcher:packageName="com.sec.android.app.videoplayer" launcher:screen="4" launcher:x="1" />
+        <favorite launcher:className="com.android.calendar.AllInOneActivity" launcher:packageName="com.android.calendar" launcher:screen="4" launcher:x="2" />
+        <favorite launcher:className="com.android.browser.BrowserActivity" launcher:packageName="com.android.browser" launcher:screen="4" launcher:x="3" />
+    </hotseat>
+</favorites>

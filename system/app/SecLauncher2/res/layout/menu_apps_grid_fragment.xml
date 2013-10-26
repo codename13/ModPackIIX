@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher2.mainmenu.PinchLayerView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:launcher="http://schemas.android.com/apk/res/com.sec.android.app.launcher">
+    <com.android.launcher2.MenuAppsGrid android:id="@id/apps_grid" android:layout_width="fill_parent" android:layout_height="fill_parent" launcher:defaultScreen="2" launcher:cellCountX="@integer/menuAppsGrid_cellCountX" launcher:cellCountY="@integer/menuAppsGrid_cellCountY" launcher:pageSpacing="@dimen/home_pageSpacing" launcher:pageIndicatorTop="@dimen/menu_pageIndicatorTop" launcher:pageIndicatorGap="@dimen/menu_pageIndicatorGap" launcher:pageIndicatorMaxVisible="@integer/menu_pageIndicatorMaxVisible" launcher:clingFocusedX="@integer/menuAppsGrid_clingFocusedX" launcher:clingFocusedY="@integer/menuAppsGrid_clingFocusedY" />
+    <com.android.launcher2.MenuEditBottomBar android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/menu_edit_bottom_bar" android:background="@drawable/menu_edit_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="63.0dip" android:alpha="0.0" android:translationY="40.0dip">
+        <ImageView android:id="@id/new_folder" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/menu_ic_create_folder" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageView android:id="@id/new_page" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/menu_ic_create_page" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageView android:id="@id/app_info" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/home_ic_info" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageView android:id="@id/delete" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/menu_ic_delete" android:scaleType="center" android:layout_weight="1.0" />
+    </com.android.launcher2.MenuEditBottomBar>
+</com.android.launcher2.mainmenu.PinchLayerView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="long_press_widget_to_add">Press and hold a widget to move it</string>
+    <string name="workspace_empty_message">Press and hold screen to add items</string>
+    <string name="all_apps_cling_add_item">Press and hold an application to add it to your home screen</string>
+    <string name="cling_menu_message">You can touch and hold an app to copy it to the Home screen.</string>
+    <string name="cling_widget_message">You can touch and hold a widget to copy it to the Home screen.</string>
+</resources>

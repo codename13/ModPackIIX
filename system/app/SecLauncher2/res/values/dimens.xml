@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="config_menuBgDarkenAmountNormal">0.15</item>
+    <item type="dimen" name="config_bgDarkenAmountEdit">0.3</item>
+    <item type="dimen" name="APKTOOL_DUMMY_00a6">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_00a7">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_00ab">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_00ac">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_00ad">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_00ae">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_00af">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_00b0">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_00b1">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_00b2">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_00b3">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_00b4">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_00b5">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_00b6">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_00b7">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_00b8">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_00b9">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_00ba">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_00bb">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_00bc">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_00bd">false</item>
+</resources>

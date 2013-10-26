@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites
+  xmlns:launcher="http://schemas.android.com/apk/res/com.sec.android.app.launcher">
+    <home>
+        <appwidget launcher:className="flipboard.widget.FlipboardWidgetMedium" launcher:packageName="flipboard.app" launcher:screen="2" launcher:x="0" launcher:y="0" launcher:spanX="4" launcher:spanY="2" />
+        <favorite launcher:className="com.sec.pcw.hybrid.CloudApp" launcher:packageName="com.sec.pcw" launcher:screen="2" launcher:x="0" launcher:y="3" />
+        <favorite launcher:className="com.dropbox.android.activity.DropboxBrowser" launcher:packageName="com.dropbox.android" launcher:screen="2" launcher:x="1" launcher:y="3" />
+        <favorite launcher:className="com.sec.android.gallery3d.app.MediaFlow" launcher:packageName="com.sec.android.gallery3d" launcher:screen="2" launcher:x="2" launcher:y="3" />
+        <favorite launcher:className="com.android.settings.Settings" launcher:packageName="com.android.settings" launcher:screen="2" launcher:x="3" launcher:y="3" />
+        <sactivitywidget launcher:className="com.sec.android.widgetapp.ap.hero.accuweather.widget.WeatherClock" launcher:packageName="com.sec.android.widgetapp.ap.hero.accuweather.widget" launcher:screen="3" launcher:x="0" launcher:y="0" />
+        <appwidget launcher:className="android.googleSearch.googleSearchWidget.GoogleSearchProvider" launcher:packageName="android.googleSearch.googleSearchWidget" launcher:screen="3" launcher:x="0" launcher:y="2" launcher:spanX="4" launcher:spanY="1" />
+        <favorite launcher:className="com.sec.chaton.HomeActivity" launcher:packageName="com.sec.chaton" launcher:screen="3" launcher:x="0" launcher:y="3" />
+        <favorite launcher:className="com.sec.android.app.camera.Camera" launcher:packageName="com.sec.android.app.camera" launcher:screen="3" launcher:x="1" launcher:y="3" />
+        <favorite launcher:className="com.sec.android.app.samsungapps.Main" launcher:packageName="com.sec.android.app.samsungapps" launcher:screen="3" launcher:x="2" launcher:y="3" />
+        <favorite launcher:className="com.android.vending.AssetBrowserActivity" launcher:packageName="com.android.vending" launcher:screen="3" launcher:x="3" launcher:y="3" />
+        <appwidget launcher:className="com.samsung.videohub.widget.VideoHubWidget" launcher:packageName="com.samsung.videohub" launcher:screen="4" launcher:x="0" launcher:y="0" launcher:spanX="4" launcher:spanY="2" />
+        <appwidget launcher:className="com.sec.android.app.music.appwidget.MusicAppWidgetProvider" launcher:packageName="com.sec.android.app.music" launcher:screen="4" launcher:x="0" launcher:y="2" launcher:spanX="4" launcher:spanY="2" />
+        <appwidget launcher:className="com.tgrape.android.radar.widget.WidgetProvider" launcher:packageName="com.tgrape.android.radar" launcher:screen="5" launcher:x="0" launcher:y="0" launcher:spanX="4" launcher:spanY="4" />
+        <appwidget launcher:className="com.sec.android.provider.smemo.PaperWidget" launcher:packageName="com.sec.android.provider.smemo" launcher:screen="1" launcher:x="0" launcher:y="1" launcher:spanX="2" launcher:spanY="2" launcher:isContextualPage="1" />
+        <appwidget launcher:className="com.sec.android.provider.smemo.PaperWidget" launcher:packageName="com.sec.android.provider.smemo" launcher:screen="1" launcher:x="2" launcher:y="1" launcher:spanX="2" launcher:spanY="2" launcher:isContextualPage="1" />
+        <appwidget launcher:className="com.sec.android.app.music.appwidget.MusicAppWidgetProvider" launcher:packageName="com.sec.android.app.music" launcher:screen="2" launcher:x="0" launcher:y="1" launcher:spanX="4" launcher:spanY="2" launcher:isContextualPage="1" />
+    </home>
+    <hotseat>
+        <favorite launcher:className="com.android.contacts.activities.DialtactsActivity" launcher:packageName="com.android.contacts" launcher:screen="0" />
+        <favorite launcher:className="com.android.contacts.activities.PeopleActivity" launcher:packageName="com.android.contacts" launcher:screen="1" />
+        <favorite launcher:className="com.android.mms.ui.ConversationComposer" launcher:packageName="com.android.mms" launcher:screen="2" />
+        <favorite launcher:className="com.android.browser.BrowserActivity" launcher:packageName="com.android.browser" launcher:screen="3" />
+    </hotseat>
+</favorites>

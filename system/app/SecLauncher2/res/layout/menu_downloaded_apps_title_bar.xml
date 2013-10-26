@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/menu_tab_container_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="@drawable/tw_tab_unselected_bar_holo" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/menu_selected_back_down" layout="@layout/menu_title_bar_back" />
+        <TextView android:textSize="@dimen/menu_title_bar_text_size" android:textColor="@color/menu_title_selected_text" android:gravity="center_vertical" android:layout_gravity="left" android:paddingLeft="@dimen/menu_title_bar_left_padding" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/menu_downloaded_apps" android:shadowColor="#bf000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="2.0" android:drawablePadding="@dimen/menu_title_bar_drawable_padding" android:layout_weight="1.0" />
+        <include android:layout_gravity="right" android:id="@id/downloaded_popup_icon" android:layout_width="wrap_content" android:layout_height="fill_parent" layout="@layout/popup_icon" />
+        <include android:layout_gravity="right" android:id="@id/downloaded_market_icon" android:layout_width="wrap_content" android:layout_height="fill_parent" layout="@layout/market_icon" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/workspace_port_1" android:background="@drawable/screen_overlay_2nd_layer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/handView" android:background="@drawable/screen_overlay_gesture_01" android:layout_width="wrap_content" android:layout_height="353.0dip" android:layout_marginBottom="0.0dip" android:layout_alignParentBottom="true" />
+        <RelativeLayout android:id="@id/TextBox" android:background="@drawable/bubble_02" android:paddingLeft="16.0dip" android:paddingTop="14.0dip" android:paddingRight="16.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_above="@id/handView">
+            <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:id="@id/clingMsg1" android:paddingBottom="14.0dip" android:layout_width="330.0dip" android:layout_height="wrap_content" android:text="@string/cling_message_1" android:layout_weight="1.0" />
+            <LinearLayout android:id="@id/CheckBarLine" android:background="@drawable/donot_show_line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/clingMsg1" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/CheckBar" android:layout_width="fill_parent" android:layout_height="57.0dip" android:layout_below="@id/CheckBarLine">
+                <CheckBox android:id="@id/chk_page1_port" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="3.0dip" android:checked="true" android:button="@drawable/cling_dismiss_check" />
+                <TextView android:textSize="19.0dip" android:textColor="#ffffffff" android:ellipsize="marquee" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cling_do_not_show_again" android:singleLine="true" android:layout_weight="1.0" />
+                <Button android:textSize="17.0dip" android:textStyle="bold" android:textColor="@color/cling_ok_button_text_color" android:gravity="center" android:id="@id/workspace_cling_button" android:background="@drawable/cling_ok_button" android:layout_width="100.0dip" android:layout_height="41.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="7.0dip" android:layout_marginBottom="9.0dip" android:text="@string/cling_ok" android:onClick="dismissOrNextWorkspaceCling" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/workspace_land_1" android:background="@drawable/screen_overlay_2nd_layer_l" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/handView" android:background="@drawable/screen_overlay_gesture_01_h" android:layout_width="288.0dip" android:layout_height="270.0dip" android:layout_alignParentBottom="true" />
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/TextBox" android:background="@drawable/bubble_03" android:paddingLeft="28.0dip" android:paddingTop="14.0dip" android:paddingRight="15.0dip" android:paddingBottom="2.0dip" android:layout_width="352.0dip" android:layout_height="wrap_content" android:layout_marginTop="77.0dip" android:layout_toRightOf="@id/handView">
+            <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:id="@id/clingMsg1" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:paddingBottom="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cling_message_1" android:layout_weight="1.0" />
+            <LinearLayout android:id="@id/CheckBarLine" android:background="@drawable/donot_show_line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/clingMsg1" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/CheckBar" android:layout_width="fill_parent" android:layout_height="57.0dip" android:layout_below="@id/CheckBarLine">
+                <CheckBox android:id="@id/chk_page1_land" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="7.0dip" android:checked="true" android:button="@drawable/cling_dismiss_check" />
+                <TextView android:textSize="18.0dip" android:textColor="#ffffffff" android:ellipsize="marquee" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cling_do_not_show_again" android:singleLine="true" android:layout_weight="1.0" />
+                <Button android:textSize="17.0dip" android:textStyle="bold" android:textColor="@color/cling_ok_button_text_color" android:gravity="center" android:id="@id/workspace_cling_button" android:background="@drawable/cling_ok_button" android:layout_width="100.0dip" android:layout_height="41.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="7.0dip" android:layout_marginBottom="9.0dip" android:text="@string/cling_ok" android:onClick="dismissOrNextWorkspaceCling" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

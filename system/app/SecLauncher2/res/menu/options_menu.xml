@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/tw_action_bar_icon_playstore" android:id="@id/options_menu_market" android:title="@string/options_menu_market" />
+    <item android:icon="@drawable/tw_action_bar_icon_edit" android:id="@id/options_menu_edit" android:title="@string/options_menu_edit" />
+    <item android:icon="@drawable/tw_action_bar_icon_search" android:id="@id/options_menu_search" android:title="@string/options_menu_search" />
+    <item android:icon="@drawable/tw_action_bar_icon_uninstall" android:id="@id/options_menu_uninstall" android:title="@string/options_menu_uninstall" />
+    <item android:icon="@drawable/tw_action_bar_icon_download" android:id="@id/options_menu_downloaded_apps" android:title="@string/options_menu_downloaded_apps" />
+    <item android:icon="@drawable/tw_action_bar_icon_viewtype" android:id="@id/options_menu_view_type" android:title="@string/options_menu_view_type" />
+    <item android:icon="@drawable/tw_action_bar_icon_share" android:id="@id/options_menu_share_app" android:title="@string/options_menu_share_app" />
+    <item android:icon="@drawable/tw_action_bar_icon_hidden" android:id="@id/options_menu_sel_apps_to_hide" android:title="@string/options_menu_sel_apps_to_hide" />
+    <item android:icon="@drawable/tw_action_bar_icon_showhidden" android:id="@id/options_menu_sel_apps_to_unhide" android:title="@string/options_menu_sel_apps_to_unhide" />
+    <item android:icon="@drawable/tw_action_bar_icon_edit" android:id="@id/options_home_edit" android:orderInCategory="1" android:title="@string/options_home_edit" />
+    <item android:icon="@drawable/tw_action_bar_icon_add_page" android:id="@id/options_home_add_page" android:visible="false" android:orderInCategory="2" android:title="@string/options_home_add_page" />
+    <item android:icon="@drawable/tw_action_bar_icon_search" android:id="@id/options_home_search" android:orderInCategory="3" android:title="@string/options_home_search" />
+    <item android:icon="@drawable/tw_action_bar_icon_setting" android:id="@id/options_home_settings" android:orderInCategory="4" android:title="@string/options_home_settings" />
+    <item android:icon="@drawable/tw_action_bar_icon_add_folder" android:id="@id/options_home_createfolder" android:orderInCategory="2" android:title="@string/home_edit_bar_create_folder_title" />
+</menu>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher2.Hotseat android:layout_width="fill_parent" android:layout_height="@dimen/home_bottomBarHeight" launcher:cellCountX="@integer/hotseat_cellCountX" launcher:cellCountY="@integer/hotseat_cellCountY"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:launcher="http://schemas.android.com/apk/res/com.sec.android.app.launcher">
+    <ImageView android:id="@id/hotseat_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bottom_bar" android:scaleType="fitXY" android:alpha="0.0" android:translationY="50.0dip" />
+    <com.android.launcher2.CellLayout android:layout_gravity="top|center" android:id="@id/layout" android:layout_width="wrap_content" android:layout_height="wrap_content" launcher:cellWidth="@dimen/hotseat_cellWidth" launcher:cellHeight="@dimen/hotseat_cellHeight" launcher:cellGapX="@dimen/hotseat_cellGapX" launcher:cellGapY="@dimen/hotseat_cellGapY" />
+</com.android.launcher2.Hotseat>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/menu_edit_bg_normal" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/wsqv_DeleteDorpTartget_height"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:launcher="http://schemas.android.com/apk/res/com.sec.android.app.launcher">
+    <com.android.launcher2.DeleteDropTarget android:id="@id/deletedroptarget" android:layout_width="@dimen/wsqv_DeleteDorpTartget_iconHeight" android:layout_height="@dimen/wsqv_DeleteDorpTartget_iconHeight" />
+    <TextView android:textSize="@dimen/wsqv_DeleteDorpTartget_TextSize" android:textColor="@*android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_edit_bar_delete_title" />
+</LinearLayout>

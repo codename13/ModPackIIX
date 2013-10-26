@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="config_menuBgDarkenAmountNormal">14.999998%</fraction>
+    <fraction name="config_bgDarkenAmountEdit">29.999996%</fraction>
+    <fraction name="config_folderOpenMenuDarkenAmount">39.999996%</fraction>
+    <item type="fraction" name="APKTOOL_DUMMY_0004">false</item>
+</resources>
