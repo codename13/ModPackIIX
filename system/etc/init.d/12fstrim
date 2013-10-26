@@ -1,0 +1,5 @@
+#!/system/bin/sh
+
+fstrim -v 4 /system
+fstrim -v 4 /cache
+fstrim -v 4 /data
